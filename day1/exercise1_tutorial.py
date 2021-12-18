@@ -17,17 +17,17 @@ print('a\n', a)
 b = np.ones((2,4))
 print('b\n', b)
 
-# create a 3x4 array filled with ones
+# create a 3x4 array filled with tens
 c = np.ones((3,4)) * 10
 print('c\n', c)
 
-# create a 3x2 array filld with random numbers
-arr = np.random.rand(3,2)
-print('array\n', arr)
+# create a 3x2 array filled with random numbers
+d = np.random.rand(3,2)
+print('d\n', d)
 
 # create a 3x2 array filled with random integers
-arr = np.random.randint(low=0, high=100, size=(3,2))
-print('int array\n', arr)
+e = np.random.randint(low=0, high=100, size=(3,2))
+print('e\n', e)
 
 # create an 9 elements array [1,2,3,4,5,6,7,8,9]
 # Values are generated within the half-open interval [start, stop) (in other words, the interval including start but excluding stop)
@@ -37,6 +37,9 @@ print('arr', arr)
 # reshape your array into a 3x3 matrix
 mat = arr.reshape(3,3)
 print('mat\n', mat)
+
+# print the shape of your matrix
+print('shape', mat.shape)
 
 # print the maximum number in your matrix
 print('max', mat.max())
