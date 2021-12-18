@@ -29,6 +29,9 @@
 
 
 
+# create an 9 elements array [1,2,3,4,5,6,7,8,9]
+
+
 # print the maximum number in your matrix
 
 
@@ -38,15 +41,7 @@
 # print the mean value in your matrix
 
 
-# reshape your array into a 2x3 matrix
-
-
-# create an 9 elements array [1,2,3,4,5,6,7,8,9]
-
-
-
 # reshape your array into a 3x3 matrix
-
 
 
 # row and column variables

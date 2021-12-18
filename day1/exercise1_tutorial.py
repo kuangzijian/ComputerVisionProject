@@ -11,44 +11,41 @@ print(type(my_arr))
 
 # create a 3x3 array filled with zeros
 a = np.zeros((3,3))
-print('a', a)
+print('a\n', a)
 
 # create a 2x4 array filled with ones
 b = np.ones((2,4))
-print('b', b)
+print('b\n', b)
 
 # create a 3x4 array filled with ones
 c = np.ones((3,4)) * 10
-print('c', c)
+print('c\n', c)
 
 # create a 3x2 array filld with random numbers
 arr = np.random.rand(3,2)
-print('array', arr)
+print('array\n', arr)
 
-# create a 3x2 arrary filled with random integers
-arr = np.random.randint(low=0, high=100, size=(3,2) )
-print('int array', arr)
-
-# print the maximum number in your matrix
-print('max', arr.max())
-
-# print the minimum number in your matrix
-print('min', arr.min())
-
-# print the mean value in your matrix
-print('mean', arr.mean())
-
-# reshape your array into a 2x3 matrix
-print('reshape', arr.reshape(2,3))
+# create a 3x2 array filled with random integers
+arr = np.random.randint(low=0, high=100, size=(3,2))
+print('int array\n', arr)
 
 # create an 9 elements array [1,2,3,4,5,6,7,8,9]
 # Values are generated within the half-open interval [start, stop) (in other words, the interval including start but excluding stop)
 arr = np.arange(1,10)
-print('mat', arr)
+print('arr', arr)
 
 # reshape your array into a 3x3 matrix
 mat = arr.reshape(3,3)
-print('mat', mat)
+print('mat\n', mat)
+
+# print the maximum number in your matrix
+print('max', mat.max())
+
+# print the minimum number in your matrix
+print('min', mat.min())
+
+# print the mean value in your matrix
+print('mean', mat.mean())
 
 # row and column variables
 row = 0
@@ -64,5 +61,5 @@ print('retrieve second column', mat[:,col])
 print('retrieve first row', mat[row,:])
 
 # retrieve all the elements on first two rows and last two columns
-print(mat[0:2,1:3])
+print('retrieve first two rows and last two columns\n', mat[0:2,1:3])
 
