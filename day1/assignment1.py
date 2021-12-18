@@ -4,7 +4,7 @@ import numpy as np
 #todo: Create and print a 3 by 3 array where every number is a 15
 
 #todo: print out what are the largest and smalled values in the array below
-arr = np.array([[1,2,3],[4,5,6],[7,8,9]])
+arr = np.array([[1,4,3],[4,5,6],[7,8,9]])
 
 #todo: import pyplot lib from matplotlib and Image lib from PIL
 
