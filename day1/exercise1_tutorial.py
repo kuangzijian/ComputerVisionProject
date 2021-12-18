@@ -2,59 +2,67 @@
 import numpy as np
 
 #todo: creating list [0,1,2,3,4] in python and print the type of your list
-list = [0,1,2,3,4]
-print(type(list))
+my_list = [0,1,2,3,4]
+print(type(my_list))
 
 #todo: cast your list into a numpy arrary and print the type of your array
-arr = np.array(list)
-print(type(arr))
+my_arr = np.array(my_list)
+print(type(my_arr))
 
-#todo: return evenly spaced values within a given interval [start, stop).
-a = np.arange(3)
-print(a)
+#todo: create a 3x3 array filled with zeros
+a = np.zeros((3,3))
+print('a', a)
 
-b = np.arange(0,10,2)
-print(b)
+#todo: create a 2x4 array filled with ones
+b = np.ones((2,4))
+print('b', b)
 
-c = np.zeros((5,5))
-print(c)
+#todo: create a 3x4 array filled with ones
+c = np.ones((3,4)) * 10
+print('c', c)
 
-d = np.ones((2,4))
-print(d)
+#todo: create a 3x2 array filld with random numbers
+arr = np.random.rand(3,2)
+print('array', arr)
 
-np.random.seed(101) # watch video for details
-arr = np.random.randint(0,100,10)
+#todo: create a 3x2 arrary filled with random integers
+arr = np.random.randint(low=0, high=100, size=(3,2) )
+print('int array', arr)
 
-arr
+#todo: print the maximum number in your matrix
+print('max', arr.max())
 
-arr2 = np.random.randint(0,100,10)
+#todo: print the minimum number in your matrix
+print('min', arr.min())
 
-arr2
+#todo: print the mean value in your matrix
+print('mean', arr.mean())
 
-arr.max()
+#todo: reshape your array into a 2x3 matrix
+print('reshape', arr.reshape(2,3))
 
-arr.min()
+#todo: create an 9 elements array [1,2,3,4,5,6,7,8,9]
+# Values are generated within the half-open interval [start, stop) (in other words, the interval including start but excluding stop)
+arr = np.arange(1,10)
+print('mat', arr)
 
-arr.mean()
+#todo: reshape your array into a 3x3 matrix
+mat = arr.reshape(3,3)
+print('mat', mat)
 
-arr.argmin()
-
-arr.argmax()
-
-arr.reshape(2,5)
-
-mat = np.arange(0,100).reshape(10,10)
-
-mat
-
+# row and column variables
 row = 0
 col = 1
 
-mat[row,col]
+#todo: retrieve the element on first row, second column
+print('retrieve first row, second column element', mat[row,col])
 
-mat[:,col]
+#todo: retrieve all the elements on second column
+print('retrieve second column', mat[:,col])
 
-mat[row,:]
+#todo: retrieve all the elements on first row
+print('retrieve first row', mat[row,:])
 
-mat[0:3,0:3]
+#todo: retrieve all the elements on first two rows and last two columns
+print(mat[0:2,1:3])
 
