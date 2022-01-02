@@ -29,3 +29,10 @@
 # Find the matrix product of x and y
 
 
+# Create a Simple linear model using torch.nn
+# the model will take 1000 input and output 20 multi-class classification results.
+# the model will have 3 hidden layers which include 200, 120, 60 respectively.
+
+
+
+# initiate the model and printout the number of parameters
