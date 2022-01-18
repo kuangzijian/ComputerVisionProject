@@ -82,9 +82,9 @@ Contributions are what make the open source community such an amazing place to b
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## References
-DLT https://eclass.srv.ualberta.ca/pluginfile.php/6697009/mod_resource/content/6/Lec03%281%29.pdf
+Yolo https://arxiv.org/abs/2004.10934
 
-Ransac https://eclass.srv.ualberta.ca/pluginfile.php/6697009/mod_resource/content/6/Lec03%281%29.pdf
+Darknet https://github.com/pjreddie/darknet
 
-LMEDS http://www-sop.inria.fr/odyssee/software/old_robotvis/Tutorial-Estim/node25.html
+Pytorch https://pytorch.org/
 
