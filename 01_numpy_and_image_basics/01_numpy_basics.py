@@ -23,8 +23,6 @@ print('create a 3x2 arrary filled with random integers')
 
 
 print('create an 9 elements array [1,2,3,4,5,6,7,8,9]')
-
-
 print('Values are generated within the half-open interval [start, stop) (in other words, the interval including start but excluding stop)')
 
 
@@ -42,10 +40,6 @@ print('print the minimum number in your matrix')
 
 print('print the mean value in your matrix')
 
-
-print('row and column index variables')
-row = 0
-col = 1
 
 print('retrieve the element on first row, second column')
 
