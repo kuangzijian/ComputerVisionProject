@@ -6,7 +6,7 @@ import numpy as np
 # print out what are the largest and smalled values in the array below
 arr = np.array([[1,2,3],[4,5,6],[7,8,9]])
 
-# import pyplot lib from matplotlib and Image lib from PIL
+# import pyplot lib from matplotlib and Image lib from  PIL
 
 # use PIL and matplotlib to read and display the ../data/zebra.jpg image
 
