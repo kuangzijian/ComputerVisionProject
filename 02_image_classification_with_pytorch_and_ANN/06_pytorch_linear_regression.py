@@ -40,7 +40,7 @@ class Model(nn.Module):
         self.linear = nn.linear(in_features, out_features) #attribute of our model
 
         def forward(self,x):
-            y_pred = self.linear()
+            y_pred = self.linear(x)
 
 # When Model is instantiated, we need to pass in the size (dimensions) of the incoming and outgoing features. For our purposes we'll use (1,1).
 # As above, we can see the initial hyperparameters.
